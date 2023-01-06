@@ -6,9 +6,8 @@
     <title>My Website</title>
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-    
-  <body class="centered">
-    <header>
+  <body>
+    <header class="main-header">
       <h1>Ronan Sanchez</h1>
       <nav>
         <ul>
@@ -18,10 +17,9 @@
         </ul>
       </nav>
     </header>
-    
     <main>
-      <section class="centered">
-        <h2 id="about">About Me</h2>
+      <section id="about">
+        <h2>About Me</h2>
         <p>
           Hello! My name is Ronan Sanchez. I am 25 years old and I'm an aspiring software engineer. 
           I've come a long way in my coding journey, and am eager to learn everything I can to become 
@@ -29,34 +27,58 @@
           As of now, my greatest strength when it comes to coding is logical thinking and problem solving, 
           which is why I find working with Javascript to be a fun challenge. I hope the opportunity to 
           show my skills in a professional work environment comes my way, but for now, feel free to browse 
-          through the projects provided in my very own portfolio!
+          through the projects provided in my very own portfolio! This webpage is currently a work in
+          progress. My submission will be graded on it's functionality, structure, and the neccessary elements
+          according to the assignment's description. The following apps below are mini projects from my bootcamp,
+          and more or less acts as placeholders for future projects, as I will be updating it throughout the course
+          of my learning. Reguardless, the work I displayed on this site are my first
+          websites I have ever made, and I am satisfied with them. They will forever be a reminder of where I started,
+          and will show me how far I have come in my coding journey!
         </p>
       </section>
-      <section>
-        <h2 id="work">My Work</h2>
-        <div>
-          <p>Mini Project #1</p>
+      <section id="work">
+        <div class="banner-app">
+          <h2>My Work</h2>
+          <h3>Mini Project #1</h3>
           <a href="https://ronasian.github.io/mod1-mini-project/#contact-me">
-            <img src="./assets/mini-project-1-screenshot.jpg">
+            <img class="banner-img" src="./assets/mini-project-1-screenshot.jpg">
           </a>
         </div>
-        <div>
-          <p>Prework Study Guide</p>
+        <div class="card-apps">
+          <h3>Prework Study Guide</h3>
           <a href="https://ronasian.github.io/prework-study-guide/">
-            <img src="./assets/prework-screenshot.jpg">
+            <img class="card-img" src="./assets/prework-screenshot.jpg">
+          </a>
+        </div class="other-apps">
+        <div>
+          <h3>Prework Study Guide</h3>
+          <a href="https://ronasian.github.io/prework-study-guide/">
+            <img class="card-img" src="./assets/prework-screenshot.jpg">
+          </a>
+        </div>
+        <div class="card-apps">
+          <h3>Prework Study Guide</h3>
+          <a href="https://ronasian.github.io/prework-study-guide/">
+            <img class="card-img" src="./assets/prework-screenshot.jpg">
+          </a>
+        </div>
+        <div class="card-apps">
+          <h3>Prework Study Guide</h3>
+          <a href="https://ronasian.github.io/prework-study-guide/">
+            <img class="card-img" src="./assets/prework-screenshot.jpg">
           </a>
         </div>
       </section>
-      <section class="centered">
-       <h2 id="contact">Contact Me</h2>
-         <form>
-           <label id="bold" for="name">Name:</label>
-           <input type="text" id="name" name="name"><br>
-           <label id="bold" for="email">Email:</label>
-           <input type="text" id="email" name="email"><br>
-           <input id="send" type="submit" value="Send">
-          </form>
-      </section>
+      <section id="contact">
+       <h2>Contact Me</h2>
+       <form>
+       <label for="name">Name:</label>
+         <input type="text" id="name" name="name"><br>
+         <label for="email">Email:</label>
+         <input type="text" id="email" name="email"><br>
+         <input id="button" type="submit" value="Send">
+       </form>
+    </section>
     </main>
   </body>
 </html>
