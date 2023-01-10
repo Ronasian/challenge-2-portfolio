@@ -45,40 +45,77 @@ main {
     top: 120px;
 }
 
+#other-work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
 h2 {
     border-bottom: 1px solid;
     margin: 40px;
 }
 
 h3 {
-    position: relative;
-    top: 10px;
-    left: 25px;
+    text-align: center;
 }
 
 p {
     color: #51555B;
+    padding: 20px 80px 20px 80px;
+}
+
+.banner-app {
+    position: relative;
+}
+
+.banner-img {
+    background-color: #446FA0;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+}
+
+.card-apps {
+    position: relative;
+    flex: 1 0 0;
+    text-align: center;
+    border: 10px solid #446FA0;
+    margin: 10px;
+}
+
+.card-apps h3 {
+    background-color: #446FA0;
+    color: #D6DDE0;
+}
+
+.card-img {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    min-width: 150px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.container ul {
+    position: relative;
+    display: flex;
+}
+
+.container a {
+    position: relative;
+    text-decoration: none;
     padding: 25px;
 }
 
-form {
-    align-items: center;
-    justify-content: center;
+@media screen and (max-width: 768px) {
+
 }
 
-#button {
-    font-size: 15px;
-    font-weight: bolder;
-    width: 80px;
-    height: 40px;
-    color: #D6DDE0;
-    background-color: #223C60;
-    border: 2px solid white;
-    margin: 20px
-}
 
-label {
-    font-weight: bold;
-    color: #D6DDE0;
-}
 
